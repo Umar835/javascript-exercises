@@ -5,6 +5,9 @@ const repeatString = function(string, num) {
     array.push(str)
   }
   let arr = array.join('')
+  if(num < 0){
+    return 'ERROR'
+  }
   return arr
 };
 
